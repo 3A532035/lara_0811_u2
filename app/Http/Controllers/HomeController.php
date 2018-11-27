@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use vendor\project\StatusTest;
 
 class HomeController extends Controller
 {
@@ -14,7 +15,7 @@ class HomeController extends Controller
     public function index()
     {
         //
-        return 'index';
+        return view('welcome');
     }
 
     /**
