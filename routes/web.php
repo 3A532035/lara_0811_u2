@@ -19,3 +19,7 @@ Route::get('say/{name?}',['as'=>'hello.index',function ($name='EveryBody'){
     return view('welcome');
 }]);
 
+Route::get('dashboard',function(){
+   return 'dashboard';
+});
+
