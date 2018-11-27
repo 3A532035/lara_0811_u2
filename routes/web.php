@@ -15,6 +15,6 @@ Route::get('/', function () {
     return redirect('welcome');
 });
 
-Route::get('hello/{name}',function ($name){
+Route::get('hello/{name?}',function ($name='EveryBody'){
     return 'Hello,'.$name;
 });
